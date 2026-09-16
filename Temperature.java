@@ -8,7 +8,7 @@ public class Temperature {
 	
 	//final constants
 	final double C_PER_F = 9.0/5.0;
-	final int OFFSET = 18;
+	final int OFFSET = 32;
 	
 	System.out.print("Enter a temperature in Celsius: ");
 	double celsius = in.nextDouble();
