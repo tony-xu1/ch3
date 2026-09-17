@@ -24,7 +24,14 @@ public class GuessMyNumber {
 				
 	System.out.println("Your guess was: " + guess);
 	System.out.println("The number I was thinking of was: " + number);
+	
+	if (offset >= 50){
 	System.out.println("You were off by " + offset);
-
+} else if(offset >= 1 && offset < 50){
+	System.out.println("You were close! Off by " + offset);
+} else if (offset == 0){
+	System.out.println("You win!");
+}
+	
 	}
 }
